@@ -1,0 +1,296 @@
+2016-08-19 16:45:02.829  INFO 8672 [main] c.p.t.a.TicontrollerAgentApplication    :48 - Starting TicontrollerAgentApplication on REGISTE-39RQTJL with PID 8672 (D:\DEV\workspace\git\ticontroller-agent\target\classes started by 강명중 in D:\DEV\workspace\git\ticontroller-agent)
+2016-08-19 16:45:02.831 DEBUG 8672 [main] c.p.t.a.TicontrollerAgentApplication    :51 - Running with Spring Boot v1.3.7.RELEASE, Spring v4.2.7.RELEASE
+2016-08-19 16:45:02.831  INFO 8672 [main] c.p.t.a.TicontrollerAgentApplication    :660 - No active profile set, falling back to default profiles: default
+2016-08-19 16:45:02.873  INFO 8672 [main] ationConfigEmbeddedWebApplicationContext:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@657c8ad9: startup date [Fri Aug 19 16:45:02 KST 2016]; root of context hierarchy
+2016-08-19 16:45:03.188  INFO 8672 [background-preinit] o.h.validator.internal.util.Version     :30 - HV000001: Hibernate Validator 5.2.4.Final
+2016-08-19 16:45:04.060  INFO 8672 [main] trationDelegate$BeanPostProcessorChecker:328 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1dac1e0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-08-19 16:45:04.427  INFO 8672 [main] s.b.c.e.t.TomcatEmbeddedServletContainer:81 - Tomcat initialized with port(s): 9091 (http)
+2016-08-19 16:45:04.439  INFO 8672 [main] o.apache.catalina.core.StandardService  :180 - Starting service Tomcat
+2016-08-19 16:45:04.440  INFO 8672 [main] org.apache.catalina.core.StandardEngine :180 - Starting Servlet Engine: Apache Tomcat/8.0.36
+2016-08-19 16:45:04.743  INFO 8672 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner    :180 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2016-08-19 16:45:04.748  INFO 8672 [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]      :180 - Initializing Spring embedded WebApplicationContext
+2016-08-19 16:45:04.748  INFO 8672 [localhost-startStop-1] o.s.web.context.ContextLoader           :272 - Root WebApplicationContext: initialization completed in 1875 ms
+2016-08-19 16:45:05.000  INFO 8672 [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean       :189 - Mapping servlet: 'dispatcherServlet' to [/]
+2016-08-19 16:45:05.003  INFO 8672 [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean :258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-08-19 16:45:05.004  INFO 8672 [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean :258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-08-19 16:45:05.004  INFO 8672 [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean :258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-08-19 16:45:05.004  INFO 8672 [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean :258 - Mapping filter: 'requestContextFilter' to: [/*]
+2016-08-19 16:45:05.170  INFO 8672 [main] j.LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-08-19 16:45:05.180  INFO 8672 [main] o.hibernate.jpa.internal.util.LogHelper :46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-08-19 16:45:05.237  INFO 8672 [main] org.hibernate.Version                   :54 - HHH000412: Hibernate Core {4.3.11.Final}
+2016-08-19 16:45:05.240  INFO 8672 [main] org.hibernate.cfg.Environment           :239 - HHH000206: hibernate.properties not found
+2016-08-19 16:45:05.242  INFO 8672 [main] org.hibernate.cfg.Environment           :346 - HHH000021: Bytecode provider name : javassist
+2016-08-19 16:45:05.386  INFO 8672 [main] o.hibernate.annotations.common.Version  :66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-08-19 16:45:05.680  INFO 8672 [main] org.hibernate.dialect.Dialect           :145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-08-19 16:45:05.709  INFO 8672 [main] o.h.h.i.ast.ASTQueryTranslatorFactory   :47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-08-19 16:45:05.812  INFO 8672 [main] c.p.tc.agent.base.TiControllerProject   :71 - generate id : 201608191645_0
+2016-08-19 16:45:05.813  INFO 8672 [main] c.p.tc.agent.base.TiControllerProject   :71 - generate id : 201608191645_1
+2016-08-19 16:45:05.813  INFO 8672 [main] c.p.tc.agent.base.TiControllerProject   :71 - generate id : 201608191645_2
+2016-08-19 16:45:05.940  INFO 8672 [main] org.elasticsearch.plugins               :119 - [Annalee] loaded [], sites []
+2016-08-19 16:45:06.342  INFO 8672 [main] o.s.d.e.c.TransportClientFactoryBean    :96 - adding transport node : localhost:9300
+2016-08-19 16:45:06.736  INFO 8672 [main] s.w.s.m.m.a.RequestMappingHandlerAdapter:539 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@657c8ad9: startup date [Fri Aug 19 16:45:02 KST 2016]; root of context hierarchy
+2016-08-19 16:45:06.795  INFO 8672 [main] s.w.s.m.m.a.RequestMappingHandlerMapping:534 - Mapped "{[/actuator/getHealth]}" onto public java.lang.String com.piolink.tc.agent.api.NodeHealthRestController.getHealth()
+2016-08-19 16:45:06.797  INFO 8672 [main] s.w.s.m.m.a.RequestMappingHandlerMapping:534 - Mapped "{[/monitor/view.do],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.piolink.tc.agent.monitor.MonitorController.monitor(org.springframework.ui.Model)
+2016-08-19 16:45:06.797  INFO 8672 [main] s.w.s.m.m.a.RequestMappingHandlerMapping:534 - Mapped "{[/monitor/getData.json],methods=[GET || POST]}" onto public java.lang.String com.piolink.tc.agent.monitor.MonitorController.getData(java.util.Map<java.lang.String, java.lang.Object>)
+2016-08-19 16:45:06.797  INFO 8672 [main] s.w.s.m.m.a.RequestMappingHandlerMapping:534 - Mapped "{[/monitor/getLatestStat.json],methods=[GET || POST]}" onto public java.lang.String com.piolink.tc.agent.monitor.MonitorController.getLatestStat(java.util.Map<java.lang.String, java.lang.Object>)
+2016-08-19 16:45:06.799  INFO 8672 [main] s.w.s.m.m.a.RequestMappingHandlerMapping:534 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-08-19 16:45:06.799  INFO 8672 [main] s.w.s.m.m.a.RequestMappingHandlerMapping:534 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-08-19 16:45:06.829  INFO 8672 [main] o.s.w.s.handler.SimpleUrlHandlerMapping :341 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-19 16:45:06.829  INFO 8672 [main] o.s.w.s.handler.SimpleUrlHandlerMapping :341 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-19 16:45:06.867  INFO 8672 [main] o.s.w.s.handler.SimpleUrlHandlerMapping :341 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-19 16:45:07.020  INFO 8672 [main] o.s.j.e.a.AnnotationMBeanExporter       :431 - Registering beans for JMX exposure on startup
+2016-08-19 16:45:07.081  INFO 8672 [main] o.a.coyote.http11.Http11NioProtocol     :180 - Initializing ProtocolHandler ["http-nio-9091"]
+2016-08-19 16:45:07.089  INFO 8672 [main] o.a.coyote.http11.Http11NioProtocol     :180 - Starting ProtocolHandler ["http-nio-9091"]
+2016-08-19 16:45:07.091  INFO 8672 [main] o.a.tomcat.util.net.NioSelectorPool     :180 - Using a shared selector for servlet write/read
+2016-08-19 16:45:07.114  INFO 8672 [main] s.b.c.e.t.TomcatEmbeddedServletContainer:162 - Tomcat started on port(s): 9091 (http)
+2016-08-19 16:45:07.120  INFO 8672 [main] c.p.t.a.TicontrollerAgentApplication    :57 - Started TicontrollerAgentApplication in 4.559 seconds (JVM running for 4.902)
+2016-08-19 16:46:01.087 ERROR 8672 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 16:46:02.095 ERROR 8672 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 16:46:03.111 ERROR 8672 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 16:47:01.018 ERROR 8672 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 16:47:02.036 ERROR 8672 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 16:47:03.054 ERROR 8672 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 16:48:01.019 ERROR 8672 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 16:48:02.037 ERROR 8672 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 16:48:03.051 ERROR 8672 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 16:49:01.017 ERROR 8672 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 16:49:02.033 ERROR 8672 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 16:49:03.049 ERROR 8672 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:39:46.287  INFO 6544 [main] c.p.t.a.TicontrollerAgentApplication    :48 - Starting TicontrollerAgentApplication on REGISTE-39RQTJL with PID 6544 (D:\DEV\workspace\git\ticontroller-agent\target\classes started by 강명중 in D:\DEV\workspace\git\ticontroller-agent)
+2016-08-19 17:39:46.289 DEBUG 6544 [main] c.p.t.a.TicontrollerAgentApplication    :51 - Running with Spring Boot v1.3.7.RELEASE, Spring v4.2.7.RELEASE
+2016-08-19 17:39:46.290  INFO 6544 [main] c.p.t.a.TicontrollerAgentApplication    :660 - No active profile set, falling back to default profiles: default
+2016-08-19 17:39:46.336  INFO 6544 [main] ationConfigEmbeddedWebApplicationContext:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@657c8ad9: startup date [Fri Aug 19 17:39:46 KST 2016]; root of context hierarchy
+2016-08-19 17:39:46.625  INFO 6544 [background-preinit] o.h.validator.internal.util.Version     :30 - HV000001: Hibernate Validator 5.2.4.Final
+2016-08-19 17:39:47.521  INFO 6544 [main] trationDelegate$BeanPostProcessorChecker:328 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1dac1e0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-08-19 17:39:47.896  INFO 6544 [main] s.b.c.e.t.TomcatEmbeddedServletContainer:81 - Tomcat initialized with port(s): 9091 (http)
+2016-08-19 17:39:47.907  INFO 6544 [main] o.apache.catalina.core.StandardService  :180 - Starting service Tomcat
+2016-08-19 17:39:47.909  INFO 6544 [main] org.apache.catalina.core.StandardEngine :180 - Starting Servlet Engine: Apache Tomcat/8.0.36
+2016-08-19 17:39:48.222  INFO 6544 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner    :180 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2016-08-19 17:39:48.226  INFO 6544 [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]      :180 - Initializing Spring embedded WebApplicationContext
+2016-08-19 17:39:48.227  INFO 6544 [localhost-startStop-1] o.s.web.context.ContextLoader           :272 - Root WebApplicationContext: initialization completed in 1891 ms
+2016-08-19 17:39:48.486  INFO 6544 [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean       :189 - Mapping servlet: 'dispatcherServlet' to [/]
+2016-08-19 17:39:48.489  INFO 6544 [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean :258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-08-19 17:39:48.490  INFO 6544 [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean :258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-08-19 17:39:48.490  INFO 6544 [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean :258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-08-19 17:39:48.491  INFO 6544 [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean :258 - Mapping filter: 'requestContextFilter' to: [/*]
+2016-08-19 17:39:48.657  INFO 6544 [main] j.LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-08-19 17:39:48.668  INFO 6544 [main] o.hibernate.jpa.internal.util.LogHelper :46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-08-19 17:39:48.728  INFO 6544 [main] org.hibernate.Version                   :54 - HHH000412: Hibernate Core {4.3.11.Final}
+2016-08-19 17:39:48.731  INFO 6544 [main] org.hibernate.cfg.Environment           :239 - HHH000206: hibernate.properties not found
+2016-08-19 17:39:48.733  INFO 6544 [main] org.hibernate.cfg.Environment           :346 - HHH000021: Bytecode provider name : javassist
+2016-08-19 17:39:48.882  INFO 6544 [main] o.hibernate.annotations.common.Version  :66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-08-19 17:39:49.252  INFO 6544 [main] org.hibernate.dialect.Dialect           :145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-08-19 17:39:49.287  INFO 6544 [main] o.h.h.i.ast.ASTQueryTranslatorFactory   :47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-08-19 17:39:49.399  INFO 6544 [main] c.p.tc.agent.base.TiControllerProject   :71 - generate id : 201608191739_0
+2016-08-19 17:39:49.400  INFO 6544 [main] c.p.tc.agent.base.TiControllerProject   :71 - generate id : 201608191739_1
+2016-08-19 17:39:49.401  INFO 6544 [main] c.p.tc.agent.base.TiControllerProject   :71 - generate id : 201608191739_2
+2016-08-19 17:39:49.543  INFO 6544 [main] org.elasticsearch.node                  :119 - [Briquette] version[1.5.2], pid[6544], build[62ff986/2015-04-27T09:21:06Z]
+2016-08-19 17:39:49.543  INFO 6544 [main] org.elasticsearch.node                  :119 - [Briquette] initializing ...
+2016-08-19 17:39:49.548  INFO 6544 [main] org.elasticsearch.plugins               :119 - [Briquette] loaded [], sites []
+2016-08-19 17:39:50.674  INFO 6544 [main] org.elasticsearch.node                  :119 - [Briquette] initialized
+2016-08-19 17:39:50.675  INFO 6544 [main] org.elasticsearch.node                  :119 - [Briquette] starting ...
+2016-08-19 17:39:50.709  INFO 6544 [main] org.elasticsearch.transport             :119 - [Briquette] bound_address {local[1]}, publish_address {local[1]}
+2016-08-19 17:39:50.733  INFO 6544 [main] org.elasticsearch.discovery             :119 - [Briquette] elasticsearch/HvUqENyoS6SP8pNdbeMPDA
+2016-08-19 17:39:50.738  INFO 6544 [elasticsearch[Briquette][clusterService#updateTask][T#1]] org.elasticsearch.cluster.service       :119 - [Briquette] master {new [Briquette][HvUqENyoS6SP8pNdbeMPDA][REGISTE-39RQTJL][local[1]]{local=true}}, removed {[Briquette][dKKNygxsQjeFW_iA96nLYA][REGISTE-39RQTJL][local[1]]{local=true},}, reason: local-disco-initial_connect(master)
+2016-08-19 17:39:50.773  INFO 6544 [main] org.elasticsearch.node                  :119 - [Briquette] started
+2016-08-19 17:39:50.857  INFO 6544 [elasticsearch[Briquette][clusterService#updateTask][T#1]] org.elasticsearch.gateway               :119 - [Briquette] recovered [0] indices into cluster_state
+2016-08-19 17:39:51.057  INFO 6544 [elasticsearch[Briquette][clusterService#updateTask][T#1]] org.elasticsearch.cluster.metadata      :119 - [Briquette] [node_health] creating index, cause [api], templates [], shards [1]/[0], mappings []
+2016-08-19 17:39:51.387  INFO 6544 [elasticsearch[Briquette][clusterService#updateTask][T#1]] org.elasticsearch.cluster.metadata      :119 - [Briquette] [node_health] create_mapping [node_health]
+2016-08-19 17:39:51.612  INFO 6544 [main] s.w.s.m.m.a.RequestMappingHandlerAdapter:539 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@657c8ad9: startup date [Fri Aug 19 17:39:46 KST 2016]; root of context hierarchy
+2016-08-19 17:39:51.668  INFO 6544 [main] s.w.s.m.m.a.RequestMappingHandlerMapping:534 - Mapped "{[/actuator/getHealth]}" onto public java.lang.String com.piolink.tc.agent.api.NodeHealthRestController.getHealth()
+2016-08-19 17:39:51.669  INFO 6544 [main] s.w.s.m.m.a.RequestMappingHandlerMapping:534 - Mapped "{[/monitor/getData.json],methods=[GET || POST]}" onto public java.lang.String com.piolink.tc.agent.monitor.MonitorController.getData(java.util.Map<java.lang.String, java.lang.Object>)
+2016-08-19 17:39:51.670  INFO 6544 [main] s.w.s.m.m.a.RequestMappingHandlerMapping:534 - Mapped "{[/monitor/getLatestStat.json],methods=[GET || POST]}" onto public java.lang.String com.piolink.tc.agent.monitor.MonitorController.getLatestStat(java.util.Map<java.lang.String, java.lang.Object>)
+2016-08-19 17:39:51.670  INFO 6544 [main] s.w.s.m.m.a.RequestMappingHandlerMapping:534 - Mapped "{[/monitor/view.do],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.piolink.tc.agent.monitor.MonitorController.monitor(org.springframework.ui.Model)
+2016-08-19 17:39:51.673  INFO 6544 [main] s.w.s.m.m.a.RequestMappingHandlerMapping:534 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-08-19 17:39:51.673  INFO 6544 [main] s.w.s.m.m.a.RequestMappingHandlerMapping:534 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-08-19 17:39:51.700  INFO 6544 [main] o.s.w.s.handler.SimpleUrlHandlerMapping :341 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-19 17:39:51.700  INFO 6544 [main] o.s.w.s.handler.SimpleUrlHandlerMapping :341 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-19 17:39:51.725  INFO 6544 [main] o.s.w.s.handler.SimpleUrlHandlerMapping :341 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-08-19 17:39:51.851  INFO 6544 [main] o.s.j.e.a.AnnotationMBeanExporter       :431 - Registering beans for JMX exposure on startup
+2016-08-19 17:39:51.879  INFO 6544 [main] o.a.coyote.http11.Http11NioProtocol     :180 - Initializing ProtocolHandler ["http-nio-9091"]
+2016-08-19 17:39:51.885  INFO 6544 [main] o.a.coyote.http11.Http11NioProtocol     :180 - Starting ProtocolHandler ["http-nio-9091"]
+2016-08-19 17:39:51.895  INFO 6544 [main] o.a.tomcat.util.net.NioSelectorPool     :180 - Using a shared selector for servlet write/read
+2016-08-19 17:39:51.918  INFO 6544 [main] s.b.c.e.t.TomcatEmbeddedServletContainer:162 - Tomcat started on port(s): 9091 (http)
+2016-08-19 17:39:51.921  INFO 6544 [main] c.p.t.a.TicontrollerAgentApplication    :57 - Started TicontrollerAgentApplication in 5.899 seconds (JVM running for 6.252)
+2016-08-19 17:40:01.056 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:40:02.064 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:40:03.081 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:40:03.192  INFO 6544 [elasticsearch[Briquette][clusterService#updateTask][T#1]] org.elasticsearch.cluster.metadata      :119 - [Briquette] [node_health] update_mapping [node_health] (dynamic)
+2016-08-19 17:41:01.017 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:41:02.037 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:41:03.055 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:42:01.018 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:42:02.023 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:42:03.030 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:43:01.018 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:43:02.034 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:43:03.040 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:44:01.021 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:44:02.037 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:44:03.053 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:45:01.019 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:45:02.035 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:45:03.044 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:46:01.017 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:46:02.033 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:46:03.050 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:47:01.018 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:47:02.023 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:47:03.033 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:48:01.019 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:48:02.035 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:48:03.042 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:49:01.018 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:49:02.033 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:49:03.049 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:50:01.019 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:50:02.034 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:50:03.045 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:51:01.018 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:51:02.033 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:51:03.050 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:52:01.018 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:52:02.036 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:52:03.051 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:53:01.018 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:53:02.035 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:53:03.049 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:54:01.007 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:54:02.011 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:54:03.016 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:55:01.019 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:55:02.034 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:55:03.049 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:56:01.018 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:56:02.033 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:56:03.047 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:57:01.015 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:57:02.032 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:57:03.047 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:58:01.014 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:58:02.031 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:58:03.047 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:59:01.022 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:59:02.043 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 17:59:03.064 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:00:01.012 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:00:02.032 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:00:03.051 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:01:01.021 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:01:02.041 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:01:03.061 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:02:01.023 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:02:02.044 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:02:03.066 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:03:01.022 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:03:02.043 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:03:03.061 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:04:01.021 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:04:02.040 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:04:03.059 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:05:01.020 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:05:02.039 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:05:03.058 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:06:01.013 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:06:02.031 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:06:03.053 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:07:01.023 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:07:02.030 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:07:03.049 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:08:01.020 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:08:02.041 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:08:03.057 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:09:01.023 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:09:02.035 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:09:03.053 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:10:01.019 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:10:02.039 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:10:03.058 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:11:01.024 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:11:02.045 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:11:03.063 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:12:01.012 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:12:02.020 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:12:03.037 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:13:01.009 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:13:02.024 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:13:03.031 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:14:01.020 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:14:02.040 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:14:03.061 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:15:01.020 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:15:02.042 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:15:03.062 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:16:01.018 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:16:02.037 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:16:03.056 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:17:01.022 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:17:02.042 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:17:03.062 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:18:01.024 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:18:02.045 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:18:03.064 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:19:01.021 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:19:02.035 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:19:03.052 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:20:01.025 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:20:02.044 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:20:03.064 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:21:01.020 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:21:02.037 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:21:03.055 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:22:01.020 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:22:02.039 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:22:03.055 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:23:01.017 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:23:02.032 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:23:03.048 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:24:01.016 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:24:02.040 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:24:03.063 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:25:01.023 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:25:02.046 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:25:03.064 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:26:01.018 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:26:02.034 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:26:03.049 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:27:01.008 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:27:02.019 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:27:03.036 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:28:01.021 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:28:02.039 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:28:03.046 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:29:01.022 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:29:02.042 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:29:03.059 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:30:01.019 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:30:02.037 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:30:03.056 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:31:01.020 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:31:02.041 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:31:03.060 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:32:01.019 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:32:02.038 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:32:03.056 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:33:01.019 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:33:02.042 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:33:03.063 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:34:01.023 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:34:02.042 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:34:03.061 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:35:01.018 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:35:02.039 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:35:03.061 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:36:01.021 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:36:02.040 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:36:03.059 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:37:01.008 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:37:02.022 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:37:03.040 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:38:01.020 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:38:02.041 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://localhost:9090/actuator/getHealth,  response : ERROR
+2016-08-19 18:38:03.059 ERROR 6544 [pool-2-thread-1] c.p.t.a.scheduling.NodeHealthServerJob  :99 - node health job url : http://192.168.229.191:9090/actuator/getHealth,  response : ERROR
